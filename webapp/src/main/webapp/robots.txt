@@ -23,3 +23,4 @@ Disallow: /visualizationAjax/ # VIVO addition
 Disallow: /visualizationData/ # VIVO addition
 Disallow: /qrcode             # VIVO addition
 Disallow: /individual         # VIVO addition
+Allow: /ARK                # HEG addition
