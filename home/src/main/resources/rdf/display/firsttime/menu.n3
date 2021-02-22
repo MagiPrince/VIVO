@@ -74,7 +74,7 @@ display:ARK
     a display:Page ;
     a display:ClassGroupPage;
     display:title "ARK" ;
-    display:urlMapping "/ARK" ;
+    display:urlMapping "/ark" .
 
 ################################################
 
