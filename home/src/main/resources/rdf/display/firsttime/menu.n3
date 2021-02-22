@@ -77,8 +77,8 @@ display:ARK
     display:forClassGroup vivoweb:vitroClassGrouppublications ;
     display:title "ARK" ;
     display:urlMapping "/ark" ;
-    display:requiresBodyTemplate  "ARK.ftl" ;
-    display:hasDataGetter display:researchDataGetter .
+    display:requiresBodyTemplate  "ARK.ftl" .
+    #display:hasDataGetter display:researchDataGetter .
 
 ################################################
 
