@@ -73,8 +73,10 @@ display:ARKMenuItem
 display:ARK
     a display:Page ;
     a display:ClassGroupPage;
+    display:forClassGroup vivoweb:vitroClassGrouppublications ;
     display:title "ARK" ;
-    display:urlMapping "/ark" .
+    display:urlMapping "/ark" ;
+    display:hasDataGetter display:researchDataGetter .
 
 ################################################
 
