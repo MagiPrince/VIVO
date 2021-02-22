@@ -67,15 +67,14 @@ display:CapabilityMapMenuItem
 
 display:ARKMenuItem
     a display:NavigationElement ;
-    display:linkText "ARK";
     display:menuPosition 7;
+    display:linkText "ARK";
     display:toPage display:ARK .
 
 display:ARK
     a display:Page ;
     a display:ClassGroupPage;
     display:forClassGroup vivoweb:vitroClassGrouppublications ;
-    display:requiresAction  action:PageViewablePublic ;
     display:title "ARK" ;
     display:urlMapping "/ark" ;
     display:hasDataGetter display:researchDataGetter .
