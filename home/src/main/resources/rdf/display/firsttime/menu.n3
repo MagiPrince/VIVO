@@ -71,11 +71,10 @@ display:ARKMenuItem
     display:toPage display:ARK .
 
 display:ARK
-    a display:HomePage ;
     a display:Page ;
+    a display:ClassGroupPage;
     display:title "ARK" ;
     display:urlMapping "/ARK" ;
-    display:hasDataGetter display:homeDataGetter;
 
 ################################################
 
