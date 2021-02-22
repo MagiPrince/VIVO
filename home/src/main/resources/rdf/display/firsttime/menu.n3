@@ -20,7 +20,8 @@ display:DefaultMenu
     display:hasElement display:OrganizationsMenuItem ;
     display:hasElement display:PeopleMenuItem ;
     display:hasElement display:ResearchMenuItem ;
-    display:hasElement display:CapabilityMapMenuItem .
+    display:hasElement display:CapabilityMapMenuItem ;
+    display:hasElement display:ARKMenuItem .
 
 #### Menu Items for Default Menu ####
 
@@ -66,14 +67,15 @@ display:CapabilityMapMenuItem
 
 display:ARKMenuItem
     a display:NavigationElement ;
-    display:menuPosition 7;
     display:linkText "ARK";
+    display:menuPosition 7;
     display:toPage display:ARK .
 
 display:ARK
     a display:Page ;
     a display:ClassGroupPage;
     display:forClassGroup vivoweb:vitroClassGrouppublications ;
+    display:requiresAction  action:PageViewablePublic ;
     display:title "ARK" ;
     display:urlMapping "/ark" ;
     display:hasDataGetter display:researchDataGetter .
