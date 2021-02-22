@@ -60,6 +60,25 @@ display:CapabilityMapMenuItem
     display:linkText "Capability Map";
     display:toPage display:CapabilityMap .
 
+################################################
+# Add Pages
+################################################
+
+display:ARKMenuItem
+    a display:NavigationElement ;
+    display:menuPosition 7;
+    display:linkText "ARK";
+    display:toPage display:ARK .
+
+display:ARK
+    a display:HomePage ;
+    a display:Page ;
+    display:title "ARK" ;
+    display:urlMapping "/ARK" ;
+    display:hasDataGetter display:homeDataGetter;
+
+################################################
+
 display:Home
     a display:HomePage ;
     a display:Page ;
